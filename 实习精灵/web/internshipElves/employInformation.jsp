@@ -11,7 +11,7 @@
     <link href="/css/employInformation.css" rel="stylesheet">
     <script src="/js/employInformation.js"></script>
 
-    </script><script type="text/javascript" async="" src="${pageContext.request.contextPath}/js/conversion.js"></script><script src="/js/allmobilize.min.js" charset="utf-8" id="allmobilize"></script><style type="text/css"></style>
+    </script><script type="text/javascript" async="" src="/js/conversion.js"></script><script src="/js/allmobilize.min.js" charset="utf-8" id="allmobilize"></script><style type="text/css"></style>
     <meta content="no-siteapp" http-equiv="Cache-Control">
     <link  media="handheld" rel="alternate">
     <!-- end 云适配 -->
@@ -27,14 +27,14 @@
         var ctx = "h";
         console.log(1);
     </script>
-    <link href="${pageContext.request.contextPath}h/images/favicon.ico" rel="Shortcut Icon">
-    <link href="${pageContext.request.contextPath}/css/style.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/external.min.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/popup.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.1.10.1.min.js"></script>
+    <link href="h/images/favicon.ico" rel="Shortcut Icon">
+    <link href="/css/style.css" type="text/css" rel="stylesheet">
+    <link href="/css/external.min.css" type="text/css" rel="stylesheet">
+    <link href="/css/popup.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery.1.10.1.min.js"></script>
     <script src="/js/jquery.lib.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/ajaxfileupload.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-hbzx.js"></script>
+    <script type="text/javascript" src="/js/ajaxfileupload.js"></script>
+    <script type="text/javascript" src="/js/jquery-hbzx.js"></script>
     <!--[if lte IE 8]>
     <script type="text/javascript" src="/js/excanvas.js"></script>
     <![endif]-->

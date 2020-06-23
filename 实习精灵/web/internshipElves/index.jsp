@@ -21,18 +21,18 @@
     </script>
 
     <link rel="Shortcut Icon" href="h/images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/external.min.css"/>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/popup.css"/>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/hotJobs.js"></script>
-    <script src="${pageContext.request.contextPath}/js/jquery.1.10.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.lib.min.js"></script>
-    <script src="${pageContext.request.contextPath}/js/ajaxfileupload.js" type="text/javascript"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/additional-methods.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/external.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/popup.css"/>
+    <script type="text/javascript" src="/js/hotJobs.js"></script>
+    <script src="/js/jquery.1.10.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery.lib.min.js"></script>
+    <script src="/js/ajaxfileupload.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/additional-methods.js"></script>
     <script type="text/javascript">
         var youdao_conv_id = 271546;
     </script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/conv.js"></script>
+    <script type="text/javascript" src="/js/conv.js"></script>
 </head>
 <body>
 

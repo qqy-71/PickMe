@@ -32,8 +32,8 @@
         </div>
     </div>
 </div>
-<script src="${pageContext.request.contextPath}/js/jquery.js"></script>
-<script src="${pageContext.request.contextPath}/js/agree.js"></script>
-<script src="${pageContext.request.contextPath}/js/getPass.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/agree.js"></script>
+<script src="/js/getPass.js"></script>
 </body>
 </html>
