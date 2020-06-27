@@ -23,7 +23,7 @@ function getVerificationCode() {
             document.getElementsByClassName("getIdentifyingCode")[0].style.cursor="auto";
             document.getElementById("code").innerText=curCount+"s重新发送";
             InterValObj=window.setInterval(SetRemainTime,1000);
-            var url = "/register/checkTelCode/?clientTelephone="+clientTelephone;
+            var url = ctx+"/register/checkTelCode/?clientTelephone="+clientTelephone;
             xhr.open("GET",url,true);
             xhr.send();
         }

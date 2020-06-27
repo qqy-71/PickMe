@@ -101,7 +101,7 @@ function register() {
         } else {
             xhr = new ActiveXObject('Microsoft.XMLHTTP');
         }
-        var url = "/stuRegister/register";
+        var url = ctx+"/stuRegister/register";
         var stuPhone = document.getElementById("registerId").value;
         var stuPwd = document.getElementById("registerPwd").value;
         var stuIdentifyingCode = document.getElementById("registerIdentifyingCode").value;
