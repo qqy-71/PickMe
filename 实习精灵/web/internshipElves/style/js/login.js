@@ -95,7 +95,7 @@ function login(){
         var stuPwd = document.getElementById("loginPwd").value;
         var imgCode = document.getElementsByClassName("loginImgCode")[0].value;
         var formData = "stuPhoneMail="+stuPhoneMail+"&stuPwd="+stuPwd+"&imgCode="+imgCode;
-        var url = "/stuLogin/login";
+        var url = ctx+"/stuLogin/login";
         xhr.open("POST",url,true);
         xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
         xhr.onreadystatechange = loginResponse;
@@ -118,7 +118,7 @@ function loginResponse() {
         if(result == "2")
             document.getElementById("loginMsg").innerText = "表示用户名和密码错误";
         if(result == "3")
-            window.location = "/internshipElves/index.jsp";
+            window.location = ctx+"/internshipElves/index.jsp";
     }
 }
 // function xx(){

@@ -3,15 +3,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <script id="allmobilize" charset="utf-8" src="/js/allmobilize.min.js"></script>
+    <script id="allmobilize" charset="utf-8" src="${pageContext.request.contextPath}/js/allmobilize.min.js"></script>
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <link rel="alternate" media="handheld"  />
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>实习精灵</title>
+    <title>PickMe</title>
     <meta property="qc:admins" content="23635710066417756375" />
-    <meta content="实习精灵" name="description">
-    <meta content="实习精灵" name="keywords">
+    <meta content="PickMe" name="description">
+    <meta content="PickMe" name="keywords">
     <meta name="baidu-site-verification" content="QIQ6KC1oZ6" />
 
 
@@ -21,18 +21,18 @@
     </script>
 
     <link rel="Shortcut Icon" href="h/images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/external.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/popup.css"/>
-    <script type="text/javascript" src="/js/hotJobs.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/external.min.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/popup.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/hotJobs.js"></script>
     <script src="/js/jquery.1.10.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/js/jquery.lib.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.lib.min.js"></script>
     <script src="/js/ajaxfileupload.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/js/additional-methods.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/additional-methods.js"></script>
     <script type="text/javascript">
         var youdao_conv_id = 271546;
     </script>
-    <script type="text/javascript" src="/js/conv.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/conv.js"></script>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
     <div id="header">
         <div class="wrapper">
             <a href="index.html" class="logo">
-                <img src="/images/logo.png" width="229" height="43" alt="实习精灵" />
+                <img src="${pageContext.request.contextPath}/images/logo.png" width="229" height="43" alt="PickMe" />
             </a>
             <ul class="reset" id="navheader">
                 <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -56,7 +56,7 @@
             <ul class="loginTop">
                 <c:choose>
                     <c:when test="${empty stuId}">
-                        <li><a href="login.html" rel="nofollow">企业入口</a></li>
+                        <li><a href="${pageContext.request.contextPath}/login.html" rel="nofollow">企业入口</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生入口</a></li>
                     </c:when>

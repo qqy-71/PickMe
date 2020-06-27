@@ -2,18 +2,21 @@
 <html>
 <head>
     <title>登录</title>
-    <link href="/css/login.css" rel="stylesheet">
-    <script src="/js/login.js"></script>
+    <link href="${pageContext.request.contextPath}/css/login.css" rel="stylesheet">
+    <script src="${pageContext.request.contextPath}/js/login.js"></script>
     <script>
         function changeImg() {
             document.getElementById("validateCodeImg").src="${pageContext.request.contextPath}/validateCode?"+Math.random();
         }
     </script>
+    <script type="text/javascript">
+		 var ctx = "${pageContext.request.contextPath}";
+	</script>
 </head>
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="/images/logo.png"></a>
+        <a href=""><img src="${pageContext.request.contextPath}/images/logo.png"></a>
     </div>
 </div>
 
@@ -61,9 +64,9 @@
             </div>
             <div class="register_right_r2_Bb">
                 <ul>
-                    <li><a href=""><img src="/images/4.jpg"/></a></li>
-                    <li><a href=""><img src="/images/5.jpg"/></a></li>
-                    <li><a href=""><img src="/images/6.jpg"/></a></li>
+                    <li><a href=""><img src="${pageContext.request.contextPath}/images/4.jpg"/></a></li>
+                    <li><a href=""><img src="${pageContext.request.contextPath}/images/5.jpg"/></a></li>
+                    <li><a href=""><img src="${pageContext.request.contextPath}/images/6.jpg"/></a></li>
                 </ul>
             </div>
         </div>
