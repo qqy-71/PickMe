@@ -401,8 +401,8 @@
 
     <div style="height: 60px;width:1300px;background-color:#fafafa;border-top: 0px solid white;
 line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
-        <img src="../images/logo.png" width="100" height ="50"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
-        <div style="position: relative;bottom: 40px;left: 470px;">
+        <img src="../images/logo.png" width="80" height ="50"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
+        <div style="position: relative;bottom: 77%;left: 35%;">
 
             <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><label style="padding: 30px;">首页</label></a>
             <a href="${pageContext.request.contextPath}/student/isLogin" ><label style="padding: 30px;">我的简历</label></a>
@@ -415,7 +415,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
     <div style="position:relative;right: 110px;">
-        <div class="wp Fm" style="position: relative;;left: 145px;">
+        <div class="wp Fm" style="position: relative;margin-left:32.5%;">
             <div class="setp">
                 <div class="mail">
                     <div class="e">
@@ -450,8 +450,8 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
         <div style="padding-right: 400px;">
-            <div id="one" style="width:670px;height:570px;font-size: 16px;background-color: #fff;margin-right:10px;padding-left: 50px;left:405px">
-                <h3 style="font-size: 20px;color: #72adf0">个人信息:</h3><br>
+            <div id="one" style="width:80%;height:570px;font-size: 16px;background-color: #fff;margin-right:10px;padding-left: 50px;left:48%;">
+                <h3 style="font-size: 20px;color: #72adf0;padding-top:2%;">个人信息:</h3><br>
 
                 <form action="${pageContext.request.contextPath}/information/insert1" method="post">
 
@@ -478,7 +478,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
         <div class="wrap clearfix" style="width: 0px;background-color: #fff;position:relative;bottom: 550px;left: 350px;">
-            <div class="wrap-r">
+            <div class="wrap-r" style="width:100%;position:absolute;top:5%;right:20%;">
 
                 <div class="module-nav normal">
                     <div class="integrity">

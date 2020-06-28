@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font: 14px/22px "微软雅黑","宋体",Arial;
+    font: 14px/22px "寰蒋闆呴粦","瀹嬩綋",Arial;
     color: #333;
     word-wrap: break-word;
 }
@@ -37,7 +37,7 @@ body {
     min-width: 1024px;
     height: 60px;
     background: #fafafa;
-    border-top: 3px solid #019875;
+    border-top: 3px solid #72adf0;
 }
 #header .wrapper {
     width: 1024px;
@@ -93,7 +93,7 @@ body {
     position: relative;
     color: #fff;
     padding: 0 40px 0 20px;
-    background: #019875;
+    background: #72adf0;
     min-width: 105px;
     overflow: hidden;
 }
@@ -229,7 +229,7 @@ dd {
     font-size: 24px;
     font-weight: normal;
     height: 43px;
-    background: #91cebe;
+    background: #d1e0f5;
     margin: -8px 0 10px 48px;
     padding: 0 20px;
     line-height: 43px;
@@ -263,7 +263,7 @@ h1 {
 
 
 .delivery_tabs {
-    background: #e9f2ee;
+    background: #e3eaf9;
     padding-top: 10px ;
     padding-bottom: 10px
 
@@ -291,7 +291,7 @@ ul, menu, dir {
     padding-inline-start: 40px;
 }
 .delivery_tabs li.current {
-    border-bottom: 4px solid #019875;
+    border-bottom: 4px solid #72adf0;
 }
 .delivery_tabs li {
     padding: 9px 0 5px 0;
@@ -305,10 +305,10 @@ li {
     text-align: -webkit-match-parent;
 }
 .delivery_tabs li.current a, .delivery_tabs li:hover a {
-    color: #019875;
+    color: #72adf0;
 }
 a:hover{
-    color: #019875;
+    color: #72adf0;
 }
 
 .delivery_tabs li a {
@@ -651,7 +651,7 @@ h2 {
 }
 #myRecommend .more {
     float: right;
-    color: #019875;
+    color: #72adf0;
     text-decoration: none;
     margin-top: 10px;
 }
