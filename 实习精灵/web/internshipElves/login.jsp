@@ -18,6 +18,9 @@
     <div class="nav_img">
         <a href=""><img src="${pageContext.request.contextPath}/images/logo.png"></a>
     </div>
+    <div class="nav_font">
+    	<span>Pick Me!</span>
+    </div>
 </div>
 
 <div id = "register">
@@ -46,7 +49,7 @@
                 <button type="button" class = "loginButton" onclick="login()"><span>登录</span></button>
 
             </form>
-            <div class="register_right_r1">
+            <div class="register_left_r3">
                 <span>没有账号? 直接 <a href="${pageContext.request.contextPath}/internshipElves/register.jsp">注册</a></span>
             </div>
         </div>

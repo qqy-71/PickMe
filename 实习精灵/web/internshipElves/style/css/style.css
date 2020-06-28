@@ -27,7 +27,7 @@ input[type="text"]:focus,input[type="password"]:focus{border:2px solid #d4e2e4;}
 textarea{ border:2px solid #f1f1f1; width:600px; height:260px;outline:none; resize:none; font:16px/32px "微软雅黑","宋体",Arial; padding:6px 10px; margin-top:20px;transition:border 0.2s ease-in 0s;}
 textarea:focus{ border:2px solid #d4e2e4; }:focus {outline: 0;}.placeholder { color: #777; }img{border:none;}
 .dn{ display:none;}.db{display:block;}.fl{float:left!important;}.fr{float:right!important;}.clear{ clear:both;} 
-a{color:#555; text-decoration:none;cursor:pointer;-moz-transition: background-color 0.2s ease-out,color 0.1s ease-out; -webkit-transition: background-color 0.2s ease-out,color 0.1s ease-out;-ms-transition: background-color 0.2s ease-out,color 0.1s ease-out;transition: background-color 0.2s ease-out,color 0.1s ease-out;}a:hover{color:#019875;}
+a{color:#555; text-decoration:none;cursor:pointer;-moz-transition: background-color 0.2s ease-out,color 0.1s ease-out; -webkit-transition: background-color 0.2s ease-out,color 0.1s ease-out;-ms-transition: background-color 0.2s ease-out,color 0.1s ease-out;transition: background-color 0.2s ease-out,color 0.1s ease-out;}a:hover{color:#72adf0;}
 dl,dd{margin:0;}em{ font-style:normal;}ul.reset{margin:0;padding:0;list-style:none;}h2{font-size:16px;margin:10px 0;}
 .c9{color:#999;}.c7{color:#777;}.c5{color:#555;}.c3{color:#333;}
 .f24{ font-size:24px;}.f20{ font-size:20px;}.f18{ font-size:18px;}.f16{ font-size:16px;}.f14{ font-size:14px;}
@@ -207,7 +207,7 @@ ul.hot_pos i{width: 12px;height: 14px;position:absolute;background:url(img/hot.p
     -webkit-transition: background-color 0.2s ease-out,color 0.1s ease-out;
     -ms-transition: background-color 0.2s ease-out,color 0.1s ease-out;
     transition: background-color 0.2s ease-out,color 0.1s ease-out;}
-#options dd div:hover{color:#fff; background:#91cebe;}
+#options dd div:hover{color:#fff; background:#c4dbf5;}
 .workplace{ margin:0 0 15px; line-height:22px;overflow:hidden;}
 .workplace dd,.workplace li{float:left; margin-left:5px;}
 .workplace dd.more,.workplace li.more{padding-right:15px;position:relative;}
