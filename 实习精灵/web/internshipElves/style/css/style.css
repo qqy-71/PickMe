@@ -123,7 +123,7 @@ span.error{display:block; margin:5px 0 10px 0; font-size:14px; color:#ff6a6a;tex
 .da-thumbs li a,.da-thumbs li a img {display: block;position: relative;}
 .da-thumbs li a {color:#fff;overflow: hidden;}
 .da-thumbs li a div {position: absolute;background: #333;background: rgba(1,152,117,0.9);*background:#0d9572;background:#0d9572\0;filter:alpha(Opacity=90);	width: 100%;height: 100%;}
-.da-thumbs li a em{display:block;width:100px;height:5px;background:rgba(255,255,255,0.3);*background:#fff;background:#fff\0;filter:alpha(Opacity=30);margin:0 6px;}
+.da-thumbs li a em{display:block;width:100px;height:5px;background:rgba(255,255,255,0.3);*background:#fff;background:#fff0;filter:alpha(Opacity=30);margin:0 6px;}
 .da-thumbs li a h2{font-size:24px;height:24px;line-height:24px;margin:10px 8px 8px 8px;font-weight:normal;text-align:center;overflow:hidden;}
 .da-thumbs li a p{font-size:12px;margin:6px 8px;line-height:18px;}
 ul.hot_tags{margin-bottom:23px; overflow:hidden;}
@@ -291,7 +291,7 @@ ul.hot_pos i{width: 12px;height: 14px;position:absolute;background:url(img/hot.p
 .hc_tag dl dt{ float:left; font-weight:bold; width:75px;}
 .hc_tag dl dd{ margin-left:75px; }
 .hc_tag dl a{ float:left; margin:0 10px 10px 0;padding:0px 8px;white-space:nowrap;}
-.hc_tag dl a:hover{background:#0d9572; color:#fff;}
+.hc_tag dl a:hover{background:#72adf0; color:#fff;}
 .hc_tag dl a.current{background:#0d9572; color:#fff;}
 .hc_list{width:700px; overflow:hidden;}
 .hc_list > li{ width:190px; float:left; background:#fafafa url(img/hc_list_bg.gif) left bottom repeat-x; padding:15px 13px; border:2px solid #fff; border-bottom:none; margin:0 10px 20px 0;}

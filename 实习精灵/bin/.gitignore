@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /com/
 /config/
 =======
 /applicationContext.xml
+=======
+>>>>>>> branch 'master' of https://github.com/qqy-71/PickMe.git
 /com/
+<<<<<<< HEAD
 /config/
 /log4j.properties
 /springmvc-servlet.xml
+>>>>>>> branch 'master' of https://github.com/qqy-71/PickMe.git
+=======
 >>>>>>> branch 'master' of https://github.com/qqy-71/PickMe.git
