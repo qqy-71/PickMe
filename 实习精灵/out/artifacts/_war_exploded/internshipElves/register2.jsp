@@ -9,13 +9,13 @@
 <html>
 <head>
     <title>邮箱注册</title>
-    <link href="/css/css_register1.css" rel="stylesheet">
-    <script src = "/js/register1.js"></script>
+    <link href="${pageContext.request.contextPath}/css/css_register1.css" rel="stylesheet">
+    <script src = "${pageContext.request.contextPath}/js/register1.js"></script>
 </head>
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="/images/logo.png"></a>
+        <a href=""><img src="${pageContext.request.contextPath}/images/logo.png"></a>
     </div>
 </div>
 

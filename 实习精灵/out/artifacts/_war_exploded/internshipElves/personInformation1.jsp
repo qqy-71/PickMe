@@ -11,8 +11,8 @@
     <title>我的简历</title>
 
     <title>Title</title>
-    <link href="/css/personInformation.css" rel="stylesheet">
-    <script src="/js/personInformation.js"></script>
+    <link href="../css/personInformation.css" rel="stylesheet">
+    <script src="../js/personInformation.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +20,7 @@
     <meta name="description" content="实习精灵是国内领先的实习生招聘平台,500强名企实习,靠谱实习机会,优质实习信息,优秀实习生,找实习就上实习僧,实习生招聘首选实习僧。">
     <meta name="keywords" content="实习,实习生,找实习,实习生招聘,暑期实习,实习僧">
     <meta name="Robots" content="all">
+    
     <!--<meta property="qc:admins" content="2040752403463010135676375"/>-->
     <!--<meta name="baidu-site-verification" content="wTCpQ2cQYQ" />-->
     <link rel="Shortcut Icon" href="//sxsimg.xiaoyuanzhao.com/static/img/favicon.ico">
@@ -194,6 +195,7 @@
         }
     </style>
 
+	<script type='text/javascript' src="../js/jquery.1.10.1.min.js"></script>
     <script type='text/javascript'>
         var _vds = _vds || [];
         window._vds = _vds;
@@ -339,66 +341,87 @@
     </script>
     <script type="text/javascript" src="//js.51jobcdn.com/in/js/2016/pointtrack.js?20180605"></script>
 
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.form.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/auth.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/resume_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/merge_data_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/resume.js?20180801"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/selectionlist.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.placeholder.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/tri_resume.js?20180823"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/pointtrack_resume.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.imgareaselect.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/calendar.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/modify_userinfo.js?20180801"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/mobile_original.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/d_nation.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_select.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_layer.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_association.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/indtype_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/funtype_array_c.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/area_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/cert_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/itskill_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/major_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/association_main.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_navigation.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_map.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/ujz.js?20180408"></script>
+    <script type="text/javascript">
+    function setBodyWidth(){
+    	var barWidthHelper=document.createElement('div');
+    	barWidthHelper.style.cssText="overflow:scroll; width:100px; height:100px;";
+    	document.body.appendChild(barWidthHelper);
+    	var barWidth=barWidthHelper.offsetWidth-barWidthHelper.clientWidth;
+    	document.body.removeChild(barWidthHelper);
+    	var bodyWidth=window.screen.availWidth-barWidth;
+    	return bodyWidth;
+    }
+    			
+    $(document).ready(
+    	function(){
+    		var bodyWidth=setBodyWidth()+"px";
+    		//document.body.style.width=bodyWidth;
+    		$("body").css("width",bodyWidth);
+    	}
+    );
+    </script>
+
+
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.form.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/auth.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/resume_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/merge_data_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/resume.js?20180801"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/selectionlist.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.placeholder.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/tri_resume.js?20180823"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/pointtrack_resume.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.imgareaselect.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/calendar.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/modify_userinfo.js?20180801"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/mobile_original.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/d_nation.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_select.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_layer.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_association.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/indtype_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/funtype_array_c.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/area_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/cert_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/itskill_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/major_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/association_main.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_navigation.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_map.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/ujz.js?20180408"></script>
 
 </head>
 <body>
 
-<div style="margin-right: 23px;">
+<div>
 
-    <div style="height: 60px;width:780px;background-color:#fafafa;border-top: 0px solid white;
+    <div style="height: 60px;width:100%;background-color:#fafafa;border-top: 0px solid white;
 line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
-        <img src="/images/logo.png" width="229" height ="43"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
-        <div style="position: relative;bottom: 40px;left: 550px;">
+        <img src="../images/logo.png" width="80" height ="50"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
+        <div style="position: relative;bottom: 77%;left: 35%;">
 
             <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><label style="padding: 30px;">首页</label></a>
             <a href="${pageContext.request.contextPath}/student/isLogin" ><label style="padding: 30px;">我的简历</label></a>
             <a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" rel="nofollow"><label style="padding: 30px;">公司</label></a>
-            <a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow"><label style="padding: 30px;">个人中心</label></a>
+            <a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow"><label style="padding: 30px;color:#72adf0;">个人中心</label></a>
         </div>
 
 
     </div>
 
 
-    <div style="position:relative;right: 110px;">
-        <div class="wp Fm" style="position: relative;;left: 145px;">
+    <div style="position:relative;right: 12%;">
+        <div class="wp Fm" style="position: absolute;left:35%;width:55%;">
             <div class="setp">
                 <div class="mail">
                     <div class="e">
                         <p><i></i><em></em></p>
                         <b>1</b>
-                        <span style="color: #00b38a;font-weight: 900;">基本信息</span>
+                        <span style="color: #72adf0;font-weight: 900;">基本信息</span>
                     </div>
                     <div class="e">
                         <p><i></i><em></em></p>
@@ -425,10 +448,8 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
 
-
-        <div style="padding-right: 400px;">
-            <div id="one" style="width:670px;height:570px;font-size: 16px;background-color: #fff;margin-right:10px;padding-left: 50px;">
-                <h3 style="font-size: 20px;color: #00b38a">个人信息:</h3><br>
+            <div id="one" style="position:absolute;width:51%;top:178px;height:580px;font-size: 16px;background-color: #fff;padding-left: 50px;left:35%;">
+                <h3 style="font-size: 20px;color: #72adf0;padding-top:2%;">个人信息:</h3><br>
 
                 <form action="${pageContext.request.contextPath}/information/insert1" method="post">
 
@@ -446,20 +467,20 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                 </select>（0表示统招）<br><br><br>
                     所学专业： <input type="text" id="professional" style="border: 1px solid grey;"name="stuMajor" onblur="checkprofessional();"><span id="span3"></span><br><br>
 
-                    <button id="button" type="submit" onclick="pointchicken();" style="font-size: 18px;width:250px;border-color:#00b38a;background-color: #00b38a;height: 46px;">保存并继续填写项目经验</button>
+                    <button id="button" type="submit" onclick="pointchicken();" style="font-size: 18px;width:250px;border-color:#72adf0;background-color: #72adf0;height: 46px;">保存并继续填写项目经验</button>
                 </form>
 
             </div>
 
-        </div>
 
 
-        <div class="wrap clearfix" style="width: 0px;background-color: #fff;position:relative;bottom: 550px;left: 350px;">
-            <div class="wrap-r">
 
-                <div class="module-nav normal">
+        <div class="wrap clearfix" style="width: 50%;position:absolute;left: 35%;">
+            <div class="wrap-r" style="position:absolute;top:80%;left:35%;">
+
+                <div class="module-nav normal" style="position:absolute;top:100px;left:35%;">
                     <div class="integrity">
-                        <div class="text" style="font-size: 20px;font-weight:900;color: #00b38a">简历完善度</div>
+                        <div class="text" style="font-size: 20px;font-weight:900;color: #72adf0">简历完善度</div>
                         <div class="line-box">
                             <div class="line" style="width:15px">
                                 <span class="score" style="left:0px">0%</span>
@@ -470,7 +491,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                         <ul class="module-list">
                             <li class="module1">
                                 <span class="icon icon1"></span>
-                                <p class="name" style="color: #00b38a;font-weight:900;">个人信息</p>
+                                <p class="name" style="color: #72adf0;font-weight:900;">个人信息</p>
                                 <div class="line"></div>
                                 <div class="complete" style="display: block;"></div>
                             </li>
@@ -484,7 +505,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
                             <li class="module3">
                                 <span class="icon icon3"></span>
-                                <p class="name" style="color: #00b38a;font-weight:900;">教育经历</p>
+                                <p class="name" style="color: #72adf0;font-weight:900;">教育经历</p>
                                 <div class="line"></div>
                                 <div class="complete" style="display: block;"></div>
                             </li>
@@ -506,21 +527,21 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
                         <div class="other-link clearfix">
                             <a class="link1" href="/interns" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">去投递</p>
+                                <p style="color: #72adf0;font-weight:900;">去投递</p>
                             </a>
                             <a class="link2" href="/resume/jobgift" target="_blank" style="border-color: #00b38a">
-                                <p style="color: #00b38a;font-weight:900;">新人礼</p>
+                                <p style="color: #72adf0;font-weight:900;">新人礼</p>
                             </a>
                             <a class="link3" href="javascript:void(0);" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">AI推荐</p>
+                                <p style="color: #72adf0;font-weight:900;">AI推荐</p>
                                 <div class="hover">
                                     <p>敬请<br>期待</p>
                                 </div>
                             </a>
                             <a class="link4" href="javascript:void(0);" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">实习报告</p>
+                                <p style="color: #72adf0;font-weight:900;">实习报告</p>
                                 <div class="hover">
-                                    <p style="color: #00b38a;">敬请<br>期待</p>
+                                    <p style="color: #72adf0;">敬请<br>期待</p>
                                 </div>
                             </a>
                         </div>
@@ -531,16 +552,16 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                                     <!--<span class="text">OFF</span>-->
                                     <span class="circle"></span>
                                 </div>
-                                <span class="" style="color: #00b38a;font-weight:900;">企业邀约</span>
+                                <span class="" style="color: #72adf0;font-weight:900;">企业邀约</span>
                             </div>
                             <div class="diagnosis-btn">
                                 <div class="icon">
                                     <img style="display: none;" src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/icon5-1.png?v=27945ae802269459b1c93228baaaef13>
                                     <img src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/icon5-2.png?v=2f4f0bfc2a05f5967254660fed6df26e>
                                 </div>
-                                <span class="open" style="color: #00b38a;font-weight:900;">简历诊断</span>
+                                <span class="open" style="color: #72adf0;font-weight:900;">简历诊断</span>
                                 <div class="diagnosis-ewm">
-                                    <p style="color: #00b38a;font-weight:900;">手机扫码诊断</p>
+                                    <p style="color: #72adf0;font-weight:900;">手机扫码诊断</p>
                                     <img src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/ewm.png?v=fe67b06492881b762befbda63a6c559b>
                                 </div>
                             </div>

@@ -3,15 +3,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <script id="allmobilize" charset="utf-8" src="/js/allmobilize.min.js"></script>
+    <script id="allmobilize" charset="utf-8" src="${pageContext.request.contextPath}/js/allmobilize.min.js"></script>
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <link rel="alternate" media="handheld"  />
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>实习精灵</title>
+    <title>PickMe</title>
     <meta property="qc:admins" content="23635710066417756375" />
-    <meta content="实习精灵" name="description">
-    <meta content="实习精灵" name="keywords">
+    <meta content="PickMe" name="description">
+    <meta content="PickMe" name="keywords">
     <meta name="baidu-site-verification" content="QIQ6KC1oZ6" />
 
 
@@ -21,18 +21,18 @@
     </script>
 
     <link rel="Shortcut Icon" href="h/images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/external.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/popup.css"/>
-    <script type="text/javascript" src="/js/hotJobs.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/external.min.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/popup.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/hotJobs.js"></script>
     <script src="/js/jquery.1.10.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/js/jquery.lib.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.lib.min.js"></script>
     <script src="/js/ajaxfileupload.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/js/additional-methods.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/additional-methods.js"></script>
     <script type="text/javascript">
         var youdao_conv_id = 271546;
     </script>
-    <script type="text/javascript" src="/js/conv.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/conv.js"></script>
 </head>
 <body>
 
@@ -40,11 +40,11 @@
     <div id="header">
         <div class="wrapper">
             <a href="index.html" class="logo">
-                <img src="/images/logo.png" width="229" height="43" alt="实习精灵" />
+                <img src="${pageContext.request.contextPath}/images/logo.png" width="80" height="80" alt="PickMe" />
             </a>
             <ul class="reset" id="navheader">
                 <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
-                <li ><a href="${pageContext.request.contextPath}/student/isLogin" >我的简历<label style="color: red;font-size: 14px;">${tip}</label></a></li>
+                <li ><a href="${pageContext.request.contextPath}//student/isLogin" >我的简历<label style="color: red;font-size: 14px;">${tip}</label></a></li>
                 <li ><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" target="_blank">公司</a></li>
                 <li ><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
                 <c:choose>
@@ -56,7 +56,7 @@
             <ul class="loginTop">
                 <c:choose>
                     <c:when test="${empty stuId}">
-                        <li><a href="login.html" rel="nofollow">企业入口</a></li>
+                        <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp" rel="nofollow">企业入口</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生入口</a></li>
                     </c:when>
@@ -1050,13 +1050,13 @@
             <div id="home_banner">
                 <ul class="banner_bg">
                     <li  class="banner_bg_1 current" >
-                        <a href="h/subject/s_buyfundation.html?utm_source=DH__lagou&utm_medium=banner&utm_campaign=haomai" target="_blank"><img src="/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg" width="612" height="160" alt="好买基金——来了就给100万" /></a>
+                        <a href="h/subject/s_buyfundation.html?utm_source=DH__lagou&utm_medium=banner&utm_campaign=haomai" target="_blank"><img src="${pageContext.request.contextPath}/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg" width="612" height="160" alt="好买基金——来了就给100万" /></a>
                     </li>
                     <li  class="banner_bg_2" >
-                        <a href="h/subject/s_worldcup.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=wc" target="_blank"><img src="/images/c9d8a0756d1442caa328adcf28a38857.jpg" width="612" height="160" alt="世界杯放假看球，老板我也要！" /></a>
+                        <a href="h/subject/s_worldcup.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=wc" target="_blank"><img src="${pageContext.request.contextPath}/images/c9d8a0756d1442caa328adcf28a38857.jpg" width="612" height="160" alt="世界杯放假看球，老板我也要！" /></a>
                     </li>
                     <li  class="banner_bg_3" >
-                        <a href="h/subject/s_xiamen.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=xiamen" target="_blank"><img src="/images/d03110162390422bb97cebc7fd2ab586.jpg" width="612" height="160" alt="出北京记——第一站厦门" /></a>
+                        <a href="h/subject/s_xiamen.html?utm_source=DH__lagou&utm_medium=home&utm_campaign=xiamen" target="_blank"><img src="${pageContext.request.contextPath}/images/d03110162390422bb97cebc7fd2ab586.jpg" width="612" height="160" alt="出北京记——第一站厦门" /></a>
                     </li>
                 </ul>
                 <div class="banner_control">
@@ -1064,15 +1064,15 @@
                     <ul class="thumbs">
                         <li  class="thumbs_1 current" >
                             <i></i>
-                            <img src="/images/4469b1b83b1f46c7adec255c4b1e4802.jpg" width="113" height="42" />
+                            <img src="${pageContext.request.contextPath}/images/4469b1b83b1f46c7adec255c4b1e4802.jpg" width="113" height="42" />
                         </li>
                         <li  class="thumbs_2" >
                             <i></i>
-                            <img src="/images/381b343557774270a508206b3a725f39.jpg" width="113" height="42" />
+                            <img src="${pageContext.request.contextPath}/images/381b343557774270a508206b3a725f39.jpg" width="113" height="42" />
                         </li>
                         <li  class="thumbs_3" >
                             <i></i>
-                            <img src="/images/354d445c5fd84f1990b91eb559677eb5.jpg" width="113" height="42" />
+                            <img src="${pageContext.request.contextPath}/images/354d445c5fd84f1990b91eb559677eb5.jpg" width="113" height="42" />
                         </li>
                     </ul>
                 </div>
@@ -1081,7 +1081,7 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li >
                     <a href="h/c/1650.html" target="_blank">
-                        <img src="/images/a254b11ecead45bda166afa8aaa9c8bc.jpg" width="113" height="113" alt="联想" />
+                        <img src="${pageContext.request.contextPath}/images/a254b11ecead45bda166afa8aaa9c8bc.jpg" width="113" height="113" alt="联想" />
                         <div class="hot_info">
                             <h2 title="联想">联想</h2>
                             <em></em>
@@ -1093,7 +1093,7 @@
                 </li>
                 <li >
                     <a href="h/c/9725.html" target="_blank">
-                        <img src="/images/c75654bc2ab141df8218983cfe5c89f9.jpg" width="113" height="113" alt="淘米" />
+                        <img src="${pageContext.request.contextPath}/images/c75654bc2ab141df8218983cfe5c89f9.jpg" width="113" height="113" alt="淘米" />
                         <div class="hot_info">
                             <h2 title="淘米">淘米</h2>
                             <em></em>
@@ -1105,7 +1105,7 @@
                 </li>
                 <li >
                     <a href="h/c/1914.html" target="_blank">
-                        <img src="/images/2bba2b71d0b0443eaea1774f7ee17c9f.png" width="113" height="113" alt="优酷土豆" />
+                        <img src="${pageContext.request.contextPath}/images/2bba2b71d0b0443eaea1774f7ee17c9f.png" width="113" height="113" alt="优酷土豆" />
                         <div class="hot_info">
                             <h2 title="优酷土豆">优酷土豆</h2>
                             <em></em>
@@ -1117,7 +1117,7 @@
                 </li>
                 <li >
                     <a href="h/c/6630.html" target="_blank">
-                        <img src="/images/f4822a445a8b495ebad81fcfad3e40e2.jpg" width="113" height="113" alt="思特沃克" />
+                        <img src="${pageContext.request.contextPath}/images/f4822a445a8b495ebad81fcfad3e40e2.jpg" width="113" height="113" alt="思特沃克" />
                         <div class="hot_info">
                             <h2 title="思特沃克">思特沃克</h2>
                             <em></em>
@@ -1129,7 +1129,7 @@
                 </li>
                 <li >
                     <a href="h/c/2700.html" target="_blank">
-                        <img src="/images/5caf8f9631114bf990f87bb11360653e.png" width="113" height="113" alt="奇猫" />
+                        <img src="${pageContext.request.contextPath}/images/5caf8f9631114bf990f87bb11360653e.png" width="113" height="113" alt="奇猫" />
                         <div class="hot_info">
                             <h2 title="奇猫">奇猫</h2>
                             <em></em>
@@ -1141,7 +1141,7 @@
                 </li>
                 <li  class="last" >
                     <a href="h/c/1335.html" target="_blank">
-                        <img src="/images/c0052c69ef4546c3b7d08366d0744974.jpg" width="113" height="113" alt="堆糖网" />
+                        <img src="${pageContext.request.contextPath}/images/c0052c69ef4546c3b7d08366d0744974.jpg" width="113" height="113" alt="堆糖网" />
                         <div class="hot_info">
                             <h2 title="堆糖网">堆糖网</h2>
                             <em></em>
@@ -1211,11 +1211,11 @@
 <script type="text/javascript" src="/js/popup.min.js"></script>
 <script type="text/javascript" src="/js/newJobs.js"></script>
 <!-- 在页面加载的时候，调用指定的方法 -->
- <script>
-     window.onload = function () {
-         hotJobs();
-     }
- </script>
+<script>
+    window.onload = function () {
+        hotJobs();
+    }
+</script>
 </div>
 </body>
 </html>

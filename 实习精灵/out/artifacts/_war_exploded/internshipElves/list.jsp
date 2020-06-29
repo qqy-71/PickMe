@@ -45,7 +45,7 @@
     <div id="header">
         <div class="wrapper">
             <a href="index.html" class="logo">
-                <img src="${pageContext.request.contextPath}/images/logo.png" width="229" height="43" alt="拉勾招聘-专注互联网招聘" />
+                <img src="${pageContext.request.contextPath}/images/logo.png" width="80" height="80" alt="拉勾招聘-专注互联网招聘" />
             </a>
             <ul class="reset" id="navheader">
                 <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>

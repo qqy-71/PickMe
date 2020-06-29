@@ -10,8 +10,8 @@
     <meta charset="UTF-8">
 
     <title>个人中心</title>
-    <meta name="description" content="实习精灵">
-    <meta name="keywords" content="实习精灵">
+    <meta name="description" content="PickMe">
+    <meta name="keywords" content="PickMe">
 
     <meta name="sogou_site_verification" content="Xs9pZRBFow"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -223,14 +223,14 @@
 <div id="header">
     <div class="wrapper">
         <a class="logo" href="index.html">
-            <img width="229" height="43" alt="实习精灵" src="${pageContext.request.contextPath}/images/logo.png">
+            <img width="80" height="50" alt="PickMe" src="${pageContext.request.contextPath}/images/logo.png">
         </a>
         <ul id="navheader" class="reset">
             <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
             <li><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
 
             <li><a rel="nofollow" href="${pageContext.request.contextPath}/student/isLogin">我的简历<label style="color: red;font-size: 14px;">${tip}</label></a></li>
-            <li style="border-bottom: 3px solid #019875"><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
+            <li style="border-bottom: 3px solid #72adf0"><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
         </ul>
         <dl class="collapsible_menu" onclick="sw_fo()">
             <dt >
@@ -324,19 +324,19 @@
 
         <div class="a_list">
             <a href="#" class="a_item" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">
-                <span class="a_num a_color_green" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">5</span>
+                <span class="a_num a_color_green" style="background: linear-gradient(to bottom left, #72adf0, #ccdbfc);" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">5</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p2.png?v=a454fb32f7cc6ce78bf50d3ddff2565b)"></div>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">看看大数据显示吧</div>
                 <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
             </a>
             <a href="#" class="a_item" data-sa="click" data-starget="/my/collect" data-sinfo="{&quot;name&quot;: &quot;收藏&quot;}" data-sevent="intern_sub" data-sname="118" data-desc="trainee_center-我的收藏">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">2</span>
+                <span data-sa="click" style="background: linear-gradient(to bottom left, #72adf0, #ccdbfc);" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">2</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p3.png?v=7017fd7f241617e6a9d4e25b13f41afd)"></div>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">喜欢的在这里哦</div>
                 <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
             </a>
             <a href="#" class="a_item a_invite">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">0</span>
+                <span data-sa="click" style="background: linear-gradient(to bottom left, #72adf0, #ccdbfc);" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">0</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name " style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p4.png?v=8b6dfdfc5e1f9f9b5c0addd6499c2002)"></div>
 
 

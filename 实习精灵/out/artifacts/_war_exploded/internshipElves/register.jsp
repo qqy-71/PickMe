@@ -2,21 +2,24 @@
 <html>
 <head>
     <title>手机注册</title>
-    <link href="/css/css_register.css" rel="stylesheet"/>
-    <script src="/js/register.js"></script>
-    <script src="/js/getVerificationCode.js"></script>
+    <link href="${pageContext.request.contextPath}/css/css_register.css" rel="stylesheet"/>
+    <script src="${pageContext.request.contextPath}/js/register.js"></script>
+    <script src="${pageContext.request.contextPath}/js/getVerificationCode.js"></script>
+    <script type="text/javascript">
+		 var ctx = "${pageContext.request.contextPath}";
+	</script>
 </head>
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="/images/logo.png"></a>
+        <a href=""><img src="${pageContext.request.contextPath}/images/logo.png"></a>
     </div>
 </div>
 
 <div id = "register">
     <div id = "register_left">
         <div class="register_left_r1">
-            <a href="${pageContext.request.contextPath}/internshipElves/register.jsp">学生注册</a>
+            <a href="/internshipElves/register.jsp">学生注册</a>
         </div>
 
         <div class="register_left_r2">
