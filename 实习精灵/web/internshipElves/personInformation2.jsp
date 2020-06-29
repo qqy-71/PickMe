@@ -11,8 +11,8 @@
     <title>我的简历</title>
 
     <title>Title</title>
-    <link href="/css/personInformation.css" rel="stylesheet">
-    <script src="/js/personInformation.js"></script>
+    <link href="。。/css/personInformation.css" rel="stylesheet">
+    <script src="。。/js/personInformation.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +20,7 @@
     <meta name="description" content="实习僧是国内领先的实习生招聘平台,500强名企实习,靠谱实习机会,优质实习信息,优秀实习生,找实习就上实习僧,实习生招聘首选实习僧。">
     <meta name="keywords" content="实习,实习生,找实习,实习生招聘,暑期实习,实习僧">
     <meta name="Robots" content="all">
+    
     <!--<meta property="qc:admins" content="2040752403463010135676375"/>-->
     <!--<meta name="baidu-site-verification" content="wTCpQ2cQYQ" />-->
     <link rel="Shortcut Icon" href="//sxsimg.xiaoyuanzhao.com/static/img/favicon.ico">
@@ -374,10 +375,10 @@
 </head>
 <body>
 <div style="margin-right: 23px;">
-    <div style="height: 60px;width:780px;background-color:#fafafa;border-top: 0px solid #019875;
+    <div style="height: 60px;width:1300px;background-color:#fafafa;border-top: 0px solid white;
 line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
-        <img src="/images/logo.png" width="229" height ="43"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
-        <div style="position: relative;bottom: 40px;left: 550px;">
+        <img src="/images/logo.png" width="80" height ="50"style="position: relative;left: 300px;top:10px;"  alt="PimeMe">
+        <div style="position: relative;bottom: 77%;left: 35%;">
 
             <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><label style="padding: 30px;">首页</label></a>
             <a href="${pageContext.request.contextPath}/student/isLogin" ><label style="padding: 30px;">我的简历</label></a>
@@ -392,7 +393,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
     <div style="position:relative;right: 110px;">
-        <div class="wp Fm" style="position: relative;;left: 145px;">
+        <div class="wp Fm" style="left: 32.5%;">
             <div class="setp">
                 <div class="mail">
                     <div class="e">
@@ -403,7 +404,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                     <div class="e">
                         <p><i></i><em></em></p>
                         <b>2</b>
-                        <span style="color: #00b38a;font-weight: 900;">项目经验</span>
+                        <span style="color: #72adf0;font-weight: 900;">项目经验</span>
                     </div>
                     <div class="e">
                         <p><i></i><em></em></p>
@@ -427,16 +428,17 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
         <div style="padding-right: 400px;">
-            <div id="nine"style="width:670px;height:570px;font-size: 16px;background-color: #fff;padding-left: 50px;">
-                <h3 style="font-size: 20px;color: #00b38a">项目经验:</h3><br>
+            <div id="nine"style="width:80%;height:570px;font-size: 16px;background-color: #fff;margin-right:10px;padding-left: 600px;left:48%;">
+                <h3 style="font-size: 20px;color: #72adf0;padding-top:2%">项目经验:</h3><br>
 
                 <form action="${pageContext.request.contextPath}/information/insert2" method="post">
+                
                     项目名称：   <input type="text" name="proExpName" style="border: 1px solid grey;"id="companyName"onblur="checkcompanyname();"><span id="spancompanyname"></span><br><br><br>
                     个人职责：   <input type="text" name="proExpDuty" style="border: 1px solid grey;"id="job" onblur="checkjob();"><span id="spanjob"></span><br><br><br>
                     项目总时间：  <input type="text" name="proExpA" style="border: 1px solid grey;"><br><br><br>
                     项目回顾总结：  <input type="text" name="proExpB" style="border: 1px solid grey;"><br><br><br>
                     项目描述：    <input type="text" name="proExpDesc" style="border: 1px solid grey;"id="ten" placeholder="简明阐述你工作解决的难题"><br><br>
-                    <button id="button3" type="submit" onclick="pointchicken3()"style="font-size: 18px;width:250px;border-color:#00b38a;background-color: #00b38a;height: 46px;">保存并继续填写求职意向</button>
+                    <button id="button3" type="submit" onclick="pointchicken3()"style="font-size: 18px;width:250px;border-color:#72adf0;background-color: #72adf0;height: 46px;">保存并继续填写求职意向</button>
                 </form>
             </div>
 
@@ -445,11 +447,11 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
         <div class="wrap clearfix" style="width: 0px;background-color: #fff;position:relative;bottom: 550px;left: 350px;">
-            <div class="wrap-r">
+            <div class="wrap-r"style="width:100%;position:absolute;top:5%;right:20%;">
 
                 <div class="module-nav normal">
                     <div class="integrity">
-                        <div class="text" style="font-size: 20px;font-weight:900;color: #00b38a">简历完善度</div>
+                        <div class="text" style="font-size: 20px;font-weight:900;color: #72adf0">简历完善度</div>
                         <div class="line-box">
                             <div class="line" style="width:15px">
                                 <span class="score" style="left:0px">0%</span>
@@ -481,7 +483,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
                             <li class="module4">
                                 <span class="icon icon6"></span>
-                                <p class="name"  style="color: #00b38a;font-weight:900;">项目经验</p>
+                                <p class="name"  style="color: #72adf0;font-weight:900;">项目经验</p>
                                 <div class="line"></div>
                                 <div class="complete" ></div>
                             </li>
@@ -496,21 +498,21 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
                         <div class="other-link clearfix">
                             <a class="link1" href="/interns" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">去投递</p>
+                                <p style="color: #72adf0;font-weight:900;">去投递</p>
                             </a>
                             <a class="link2" href="/resume/jobgift" target="_blank" style="border-color: #00b38a">
-                                <p style="color: #00b38a;font-weight:900;">新人礼</p>
+                                <p style="color: #72adf0;font-weight:900;">新人礼</p>
                             </a>
                             <a class="link3" href="javascript:void(0);" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">AI推荐</p>
+                                <p style="color: #72adf0;font-weight:900;">AI推荐</p>
                                 <div class="hover">
                                     <p>敬请<br>期待</p>
                                 </div>
                             </a>
                             <a class="link4" href="javascript:void(0);" target="_blank">
-                                <p style="color: #00b38a;font-weight:900;">实习报告</p>
+                                <p style="color: #72adf0;font-weight:900;">实习报告</p>
                                 <div class="hover">
-                                    <p style="color: #00b38a;">敬请<br>期待</p>
+                                    <p style="color: #72adf0;">敬请<br>期待</p>
                                 </div>
                             </a>
                         </div>
@@ -521,16 +523,16 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                                     <!--<span class="text">OFF</span>-->
                                     <span class="circle"></span>
                                 </div>
-                                <span class="" style="color: #00b38a;font-weight:900;">企业邀约</span>
+                                <span class="" style="color: #72adf0;font-weight:900;">企业邀约</span>
                             </div>
                             <div class="diagnosis-btn">
                                 <div class="icon">
                                     <img style="display: none;" src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/icon5-1.png?v=27945ae802269459b1c93228baaaef13>
                                     <img src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/icon5-2.png?v=2f4f0bfc2a05f5967254660fed6df26e>
                                 </div>
-                                <span class="open" style="color: #00b38a;font-weight:900;">简历诊断</span>
+                                <span class="open" style="color: #72adf0;font-weight:900;">简历诊断</span>
                                 <div class="diagnosis-ewm">
-                                    <p style="color: #00b38a;font-weight:900;">手机扫码诊断</p>
+                                    <p style="color: #72adf0;font-weight:900;">手机扫码诊断</p>
                                     <img src=https://sxsimg.xiaoyuanzhao.com/static/img/resume3/ewm.png?v=fe67b06492881b762befbda63a6c559b>
                                 </div>
                             </div>

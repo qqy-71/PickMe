@@ -11,8 +11,8 @@
     <title>我的简历</title>
 
     <title>Title</title>
-    <link href="/css/personInformation.css" rel="stylesheet">
-    <script src="/js/personInformation.js"></script>
+    <link href="../css/personInformation.css" rel="stylesheet">
+    <script src="../js/personInformation.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
