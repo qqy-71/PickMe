@@ -69,9 +69,11 @@ public class InformationController {
 
     //添加项目经验
     @RequestMapping("insert2")
-    public String insert(ProExp record){
-        int row = proExpService.insert(record);
-        return "personInformation3";
+    public ModelAndView insert(ProExp record,HttpServletRequest request){
+    	ModelAndView mav = new ModelAndView();
+    	request.getSession().setAttribute("proexp", record);
+    	mav.setViewName("personInformation3");
+    	return mav;
     }
 
 
@@ -79,8 +81,13 @@ public class InformationController {
     @RequestMapping("insert3")
     public  String insert1(Resume resume, HttpServletRequest request){
         Student s = (Student)request.getSession().getAttribute("student1");
-        resume.setStuId(s.getStuId());
+        Integer studId=s.getStuId();
+        ProExp proExp=(ProExp)request.getSession().getAttribute("proexp");
+        resume.setStuId(studId);
         int row = resumeService.insert(resume);
+        Resume resume1=resumeService.queryByStuId(studId);
+        proExp.setResumeId(resume1.getResumeId());
+        int row1 = proExpService.insert(proExp);
         return "personCenter";
     }
     //注册的时候对密码进行加密
