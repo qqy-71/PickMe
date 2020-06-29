@@ -56,7 +56,7 @@
             <ul class="loginTop">
                 <c:choose>
                     <c:when test="${empty stuId}">
-                        <li><a href="${pageContext.request.contextPath}/login.html" rel="nofollow">企业入口</a></li>
+                        <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp" rel="nofollow">企业入口</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生入口</a></li>
                     </c:when>
@@ -1211,11 +1211,11 @@
 <script type="text/javascript" src="/js/popup.min.js"></script>
 <script type="text/javascript" src="/js/newJobs.js"></script>
 <!-- 在页面加载的时候，调用指定的方法 -->
- <script>
-     window.onload = function () {
-         hotJobs();
-     }
- </script>
+<script>
+    window.onload = function () {
+        hotJobs();
+    }
+</script>
 </div>
 </body>
 </html>

@@ -10,16 +10,16 @@
         }
     </script>
     <script type="text/javascript">
-		 var ctx = "${pageContext.request.contextPath}";
-	</script>
+        var ctx = "${pageContext.request.contextPath}";
+    </script>
 </head>
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="${pageContext.request.contextPath}/images/logo.png"></a>
+        <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><img src="${pageContext.request.contextPath}/images/logo.png"></a>
     </div>
     <div class="nav_font">
-    	<span>Pick Me!</span>
+        <span>Pick Me!</span>
     </div>
 </div>
 
