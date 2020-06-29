@@ -11,7 +11,8 @@ a{
 /*******************************start nav****************************/
 #nav{
     height: 80px;
-    background-color: cornflowerblue;
+    background-color: #a5a2a2;
+    position: relative;
 }
 
 .nav_img{
@@ -48,9 +49,19 @@ a{
 }
 
 #nav  .nav_img img{
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#nav .nav_font{
+	margin-left: 120px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', Arial, sans-serif;
+    color: #e5e4ec;
+    position: absolute;
+    top: 15px;
 }
 
 #nav .slice{
@@ -66,25 +77,27 @@ a{
 
 /*********************************************************/
 #register{
-    margin-top: 70px;
     height: 550px;
-
+    background: url(img/loginback.png) no-repeat;
+    background-size: 1262px 550px;
+    position: relative;
 }
 
 #register_left{
     display: inline-block;
     height: 500px;
     width: 35%;
-    margin-left: 130px;
-    float: left;
+    margin-right: 130px;
+    float: right;
+    background-color: white;
 }
 
 #register_right{
-    display: inline-block;
     height: 500px;
-    float: right;
     width: 35%;
-    margin-right: 250px;
+    position: absolute;
+    right: 480px;
+    top: 350px;
 }
 
 #register .slice{
@@ -197,6 +210,7 @@ a{
     margin-top: 0px;
     margin-left: 65px;
     background-color: #6aa2e4 ;
+    border: none;
 }
 
 /*D*/
@@ -242,13 +256,14 @@ a{
 /**********************************************************/
 .register_right_r1{
     height: 10%;
+    display:none;
 }
 
 .register_right_r2{
     height:90%;
 }
 
-.register_right_r1 span{
+.register_left_r3 span{
     display: block;
     color: #999;
     margin-top: 50px;
@@ -256,23 +271,23 @@ a{
     cursor: pointer;
 }
 
-.register_right_r1 a{
+.register_left_r3 a{
     color: #6aa2e4 ;
     font-family: Georgia, serif;
 }
 
-.register_right_r1 a:hover{
+.register_left_r3 a:hover{
     border-bottom:1px #6aa2e4;
 }
 
 .register_right_r2_Ba {
-    height: 15%;
+    height: 10%;
     margin-top: 10px;
 }
 
 .register_right_r2_Ba span{
     font-size: 10px;
-    color: #999;
+    color: #752828;
     margin-top: 50px;
     margin-left: 160px;
     cursor: pointer;

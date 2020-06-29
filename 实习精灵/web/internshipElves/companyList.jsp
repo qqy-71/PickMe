@@ -26,7 +26,7 @@
 </head>
 <div style="position:relative; left: 150px; bottom: 15px;">
     <a href="${pageContext.request.contextPath}/internshipElves/index.jsp" class="logo">
-        <img src="${pageContext.request.contextPath}/images/logo.png" width="229" height="43" alt="PickMe" />
+        <img src="${pageContext.request.contextPath}/images/logo.png" width="80" height="80" alt="PickMe" />
     </a>
     <ul class="reset" id="navheader" >
         <li ><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -446,10 +446,10 @@
             </div>
             <!-- <a href="h/speed/speed3.html" target="_blank" class="adSpeed"></a> -->
             <a href="h/subject/jobguide.html" target="_blank" class="eventAd">
-                <img src="/images/subject280.jpg" width="280" height="135" />
+                <img src="${pageContext.request.contextPath}/images/subject280.jpg" width="280" height="135" />
             </a>
             <a href="h/subject/risingPrice.html" target="_blank" class="eventAd">
-                <img src="/images/rising280.png" width="280" height="135" />
+                <img src="${pageContext.request.contextPath}/images/rising280.png" width="280" height="135" />
             </a>
         </div>
 

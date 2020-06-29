@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 /com/
 /config/
+=======
+/applicationContext.xml
+/com/
+/config/
+/log4j.properties
+/springmvc-servlet.xml
+>>>>>>> branch 'master' of https://github.com/qqy-71/PickMe.git
