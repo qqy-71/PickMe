@@ -397,9 +397,9 @@
 </head>
 <body>
 
-<div style="margin-right: 23px;">
+<div>
 
-    <div style="height: 60px;width:1300px;background-color:#fafafa;border-top: 0px solid white;
+    <div style="height: 60px;width:100%;background-color:#fafafa;border-top: 0px solid white;
 line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
         <img src="../images/logo.png" width="80" height ="50"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
         <div style="position: relative;bottom: 77%;left: 35%;">
@@ -414,8 +414,8 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
     </div>
 
 
-    <div style="position:relative;right: 110px;">
-        <div class="wp Fm" style="position: relative;margin-left:32.5%;">
+    <div style="position:relative;right: 12%;">
+        <div class="wp Fm" style="position: absolute;left:35%;width:55%;">
             <div class="setp">
                 <div class="mail">
                     <div class="e">
@@ -448,9 +448,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
 
 
-
-        <div style="padding-right: 400px;">
-            <div id="one" style="width:80%;height:570px;font-size: 16px;background-color: #fff;margin-right:10px;padding-left: 50px;left:48%;">
+            <div id="one" style="position:absolute;width:51%;top:178px;height:580px;font-size: 16px;background-color: #fff;padding-left: 50px;left:35%;">
                 <h3 style="font-size: 20px;color: #72adf0;padding-top:2%;">个人信息:</h3><br>
 
                 <form action="${pageContext.request.contextPath}/information/insert1" method="post">
@@ -474,13 +472,13 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
 
             </div>
 
-        </div>
 
 
-        <div class="wrap clearfix" style="width: 0px;background-color: #fff;position:relative;bottom: 550px;left: 350px;">
-            <div class="wrap-r" style="width:100%;position:absolute;top:5%;right:20%;">
 
-                <div class="module-nav normal">
+        <div class="wrap clearfix" style="width: 50%;position:absolute;left: 35%;">
+            <div class="wrap-r" style="position:absolute;top:80%;left:35%;">
+
+                <div class="module-nav normal" style="position:absolute;top:100px;left:35%;">
                     <div class="integrity">
                         <div class="text" style="font-size: 20px;font-weight:900;color: #72adf0">简历完善度</div>
                         <div class="line-box">
