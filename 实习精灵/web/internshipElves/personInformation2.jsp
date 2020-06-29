@@ -340,37 +340,37 @@
     </script>
     <script type="text/javascript" src="//js.51jobcdn.com/in/js/2016/pointtrack.js?20180605"></script>
 
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.form.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/auth.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/resume_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/merge_data_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/resume.js?20180801"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/selectionlist.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.placeholder.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/tri_resume.js?20180823"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/pointtrack_resume.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/jquery.imgareaselect.min.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/calendar.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/resume/modify_userinfo.js?20180801"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/mobile_original.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/d_nation.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_select.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_layer.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/common_association.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/indtype_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/funtype_array_c.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/area_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/cert_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/itskill_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/major_array_c.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/association_main.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_navigation.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_map.js?20180815"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/layer/layer_main.js?20180319"></script>
-    <script language="javascript" src="//js.51jobcdn.com/in/js/2016/login/ujz.js?20180408"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.form.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/auth.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/resume_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/merge_data_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/resume.js?20180801"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/selectionlist.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.placeholder.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/tri_resume.js?20180823"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/pointtrack_resume.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/jquery.imgareaselect.min.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/calendar.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/resume/modify_userinfo.js?20180801"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/mobile_original.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/d_nation.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_select.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_layer.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/common_association.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/indtype_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/funtype_array_c.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/area_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/cert_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/itskill_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/major_array_c.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/association_main.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_navigation.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main_map.js?20180815"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/layer/layer_main.js?20180319"></script>
+    <script language="javascript" charset="GB2312" src="//js.51jobcdn.com/in/js/2016/login/ujz.js?20180408"></script>
 
 </head>
 <body>
@@ -438,7 +438,7 @@ line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
                     项目总时间：  <input type="text" name="proExpA" style="border: 1px solid grey;"><br><br><br>
                     项目回顾总结：  <input type="text" name="proExpB" style="border: 1px solid grey;"><br><br><br>
                     项目描述：    <input type="text" name="proExpDesc" style="border: 1px solid grey;"id="ten" placeholder="简明阐述你工作解决的难题"><br><br>
-                    <button id="button3" type="submit" onclick="pointchicken3()"style="font-size: 18px;width:250px;border-color:#72adf0;background-color: #72adf0;height: 46px;">保存并继续填写求职意向</button>
+                    <button id="button3" type="submit" onclick="pointchicken3()"style="font-size: 18px;width:250px;border-color:#72adf0;background-color: #72adf0;color:white;height: 46px;">保存并继续填写求职意向</button>
                 </form>
             </div>
 
